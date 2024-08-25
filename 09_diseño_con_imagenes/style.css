@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+#fila1{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+#fila2{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fila3{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pie{
+    background-color: greenyellow;
+    height: 50px;
+    display: flex;    
+    justify-content: center;
+}
+
+.img{
+    width: 200px;
+    margin: 10px;
+}
+.img1{
+    width: 300px;
+    margin: 10px;
+}

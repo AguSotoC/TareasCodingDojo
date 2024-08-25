@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+}
+#cabecera{
+    width: 100vw;
+    height: 40;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.grande{
+    flex: 8;
+}
+.peq{
+    flex: 1;
+}
+#perfil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60vw;
+    height: 450px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#info{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+#educacion{
+    width: 59vw;
+    height: 200px;
+    margin: 5px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+
+}
+#solicitudes{
+    width: 30vw;
+    height: 200px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+
+}
+#conexiones{
+    width: 30;
+    height: 450px;
+    margin: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#barra{
+    background-color: blue;
+    width: 60vw;
+    height: 100px;   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 73%;
+    left: 7%;
+    border-radius: 360px;
+    border: solid white;
+    object-fit: cover;
+}
+#solicitud{
+    height: 55px;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.fotoperfil{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 360px;
+    border: 1px solid white;
+}
+.aceptar{
+    border-radius: 360px;
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: red;
+    margin: 10px;
+    font-size: large;
+}
+.nombre{
+    padding-left: 10px;
+    flex: 6;
+
+}

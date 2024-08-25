@@ -1,0 +1,44 @@
+#contenedor{
+    margin: 10px;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;;
+
+}  
+#cabecera{
+    background-color: rgba(1, 232, 240, 0.973);
+    width: 100v;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    border: 3px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+#info{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.boton{
+    margin-left: 30px;
+    
+}
+h3{
+    color: rgb(102, 102, 102);
+}
+h4{
+    color: rgb(102, 102, 102);
+}
+p{
+    color: rgb(102, 102, 102);
+}
